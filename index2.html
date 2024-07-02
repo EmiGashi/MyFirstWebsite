@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    
+    <script src="https://kit.fontawesome.com/5f9e3064f1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container lis">
+            <h1>To Do List App</h1>
+            <form action="">
+                <input type="text" id="note-title"  placeholder="Add Task title">
+                <input type="date" name="date" id="da" placeholder="Enter date" />
+                <textarea name="" id="note-text" placeholder="AddTask description"></textarea>
+                <button id="add-btn">Add Task</button>
+            </form>
+        </div>
+    </header>
+    <section>
+        <div class="container lis">
+                <h2>Task List </h2>
+                <hr>
+                <div id="notes" class="notes">
+
+                    <div id="note">
+                        <p class="note-counter">Task 1</p>
+                        <input type="date" placeholder="Enter date">
+                        <h3 class="note-title">Appointment</h3>
+                        <p class="note-text">Dentist Appointement at 13:00, on Monday!</p>
+                        <button class="note-btn">Delete Task</button>
+                        <button class="note-btn edit-btn">Edit Task</button>
+                    </div>
+                </div>
+       </div>
+    
+    </section>
+
+    <script src="note.js"></script>
+</body>
+</html>
